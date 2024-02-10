@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # 이 코드를 추가하여 Matplotlib이 백엔드로 'Agg'를 사용하도록 설정합니다.
 import matplotlib.pyplot as plt
 import seaborn as sns
 # 한글폰트 적용
